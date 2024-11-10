@@ -1,9 +1,13 @@
+-r requirements_base.txt
+
 praat-parselmouth>=0.4.3
 pyworld==0.3.2
 faiss-cpu==1.7.3
 torchcrepe==0.0.20
 ffmpeg-python>=0.2.0
-fairseq==0.12.2 
+fairseq==0.12.2  # https://github.com/facebookresearch/fairseq
+pyannote.audio~=3.1.0  # https://github.com/pyannote/pyannote-audio
+omegaconf~=2.0.6  # https://github.com/omry/omegaconf
 gdown
 rarfile
 transformers
